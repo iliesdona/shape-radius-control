@@ -35,20 +35,14 @@ export default function BorderRadiusControll() {
           alignSelf: 'center',
           position: 'relative', 
         }}>
-          {/* THE VECTOR HANDLE */}
+        
          
         </View>
       
 
       <View style={styles.inputcontainer}>
-        {/* Basic Numeric Usage is 100% Unchanged and Intact */}
-        <TextInput 
-          style={styles.inputall} 
-          placeholder="every border Radius" 
-          value={borderRadius} 
-          onChangeText={setborderRadius}
-          keyboardType="numeric"
-        />
+      
+        <TextInput style={styles.inputall} placeholder="every border Radius" value={borderRadius} onChangeText={setborderRadius} keyboardType="numeric"/>
         <View style={styles.secondaryinputcontainer}>
           <TextInput style={styles.input} placeholder="top left" value={borderTopleftradius} onChangeText={setborderTopleftradius} keyboardType="numeric"/>
           <TextInput style={styles.input} placeholder="top right" value={borderToprightradius} onChangeText={setborderToprightradius} keyboardType="numeric"/>
